@@ -2,7 +2,7 @@ const express = require("express")
 require("dotenv").config()
 
 const app = express()
-const desiredPath = process.env.DESIRED_PATH || "/"
+const desiredPath = process.env.DESIRED_PATH || "Rainer"
 const port = process.env.PORT || 8080
 const number = process.env.NUMBER || 0
 
