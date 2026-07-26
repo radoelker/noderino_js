@@ -2,3 +2,6 @@ node_modules
 .DS_Store
 server.log
 .env
+terraform/*tfvars
+terraform/.terraform/
+terraform/*.tfstat*
